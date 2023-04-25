@@ -7,38 +7,19 @@ import Nav from '../components/Nav.astro';
 <Layout title="Spring Creek Golf League">
 	<main>
 		<h1><span class="text-gradient">Spring Creek Golf League</span></h1>
+        <div class="navigation"> <Nav/> </div>
+       
 		<p class="instructions">
-			Welcome to the Spring Creek Golf League for 2023.<br />
-			Make sure your email is on our list to get updates
+			Established 1986<br />
 		</p>
-		
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://alvisbjones.github.io/golfleague2022/pdf/Teamroster2022.pdf"
-				title="Teams"
-				body="2023 team listing"
-			/>
-			<Card
-				href="https://alvisbjones.github.io/golfleague2022/pdf/scores.txt"
-				title="Players"
-				body="Player list - scores within last 5 years"
-			/>
-			<Card
-				href="https://alvisbjones.github.io/golfleague2022/pdf/2022standings.pdf"
-				title="Standings"
-				body="Week to week results for 2023"
-			/>
-			<Card
-				href="https://sites.google.com/site/springcreekgolf/Home/tally-sheet?authuser=0"
-				title="Tally Sheet Input"
-				body="Enter the result of your match"
-			/>
-			<Card
-				href="/about/"
-				title="Info / About"
-				body="Officers, email list, phone numbers"
-			/>
-		</ul>
+
+        <ul>
+            <li>Officers</li>
+            <li>Rules</li>
+            <li>Email changes</li>
+        </ul>
+
+
 	</main>
 </Layout>
 
@@ -48,7 +29,7 @@ import Nav from '../components/Nav.astro';
 		padding: 1.5rem;
 		max-width: 60ch;
 	}
-	h1 {
+    h1 {
 		font-size: 3rem;
 		font-weight: 800;
 		margin: 0;
@@ -85,4 +66,7 @@ import Nav from '../components/Nav.astro';
 		gap: 1rem;
 		padding: 0;
 	}
+    .navigation {
+        padding: .8em;
+    }
 </style>
