@@ -1,8 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Tabular from '../components/tabular.astro';
 import Nav from '../components/Nav.astro';
-import Plist from '../components/Plist';
+import PlayerList from '../components/PlayerList';
+
+//
+//		<div class="table">
+//	<PlayerList client:load/>
+//		</div>
+//
+//
 ---
 
 
@@ -15,13 +21,14 @@ import Plist from '../components/Plist';
 		<p class="instructions">
 			Please send updates for email & phone to : xxx@yyy.com<br />
 		</p>
-		<div class="table">
-			<Plist client:load/>
+		<div class="iframetable">
+			<iframe src="players.html" width="100%" height="900" style="border:none;">
+		</iframe>
 		</div>
-		
 
 	</main>
 </Layout>
+
 
 <style>
 	.iframetable{

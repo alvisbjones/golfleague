@@ -1,18 +1,21 @@
 
-// import 'react-tabulator/lib/styles.css';
-
-import { TabulatorFull as Tabulator } from "tabulator-tables";
+//import { TabulatorFull as Tabulator } from "tabulator-tables";
+//import {Tabulator} from 'https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js'
+import {Tabulator} from "tabulator-tables";
+//import {Tabulator} from 'https://unpkg.com/tabulator-tables/dist/js/tabulator_esm.min.js';
+//import pkg from "tabulator-tables";
+//const {Tabulator} = pkg;
 import { useEffect, useRef } from "react";
 import "tabulator-tables/dist/css/tabulator.min.css";
 import "tabulator-tables/dist/css/tabulator_semanticui.min.css";
-import pList from "../data/player.json"
+import players from "../data/player.json"
 
 const GetPlayerList = () =>{
-  return pList
+  return players
 }
 
 const PlayerList = () => {
-  const tableRef = useRef();
+  //const tableRef = useRef();
   useEffect(() => {
     let data = GetPlayerList();
 
@@ -31,15 +34,13 @@ const PlayerList = () => {
       layout: "fitDataFill"
     });
 
-    tableRef.current = table;
+    // tableRef.current = table;
   });
  
 
   return (
     <>
     <div>
-    <button id="download-pdf">Download PDF</button>
-    <button id="download-html">Download HTML</button>
     </div>
     <div id="playerlist" />
     </>
