@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Tabular from '../components/tabular.astro';
 import Nav from '../components/Nav.astro';
-import PlayerList from '../components/PlayerList';
+import Plist from '../components/Plist';
 ---
 
 
@@ -15,14 +15,23 @@ import PlayerList from '../components/PlayerList';
 		<p class="instructions">
 			Please send updates for email & phone to : xxx@yyy.com<br />
 		</p>
-		<div class="table">
-			<PlayerList client:load/>
+		<div class="iframetable">
+			<iframe src="players.html" width="100%" height="900" style="border:none;">
+		</iframe>
 		</div>
 		
+
+
+
+
 	</main>
 </Layout>
 
 <style>
+	.iframetable{
+		width: 900;
+		height: 600;
+	}
 	main {
 		margin: auto;
 		padding: 1.5rem;
