@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Nav from '../components/Nav.astro';
+
 ---
 
 <Layout title="Spring Creek Golf League">
@@ -9,7 +10,7 @@ import Nav from '../components/Nav.astro';
 		<h1><span class="text-gradient">Spring Creek Golf League</span></h1>
 		<p class="instructions">
 			Welcome to the Spring Creek Golf League for 2023.<br />
-			Make sure your email is on our list to get updates
+			Make sure your email is on our list to get updates.
 		</p>
 		
 		<ul role="list" class="link-card-grid">
@@ -19,7 +20,7 @@ import Nav from '../components/Nav.astro';
 				body="2023 team listing"
 			/>
 			<Card
-				href="/playerlist"
+				href="/players"
 				title="Players"
 				body="Player list - scores within last 5 years"
 			/>
@@ -37,6 +38,11 @@ import Nav from '../components/Nav.astro';
 				href="/about/"
 				title="Info / About"
 				body="Officers, email list, phone numbers"
+			/>
+			<Card
+				href="/players.html"
+				title="player table"
+				body="Player list"
 			/>
 		</ul>
 	</main>
