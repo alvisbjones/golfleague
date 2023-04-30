@@ -1,16 +1,19 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Nav from '../components/Nav.astro';
-import Playermui from '../components/playermui';
-import Agtest from '../components/Agtest';
+//import json from '../data/player.json';
+//console.log(json)
+
+const res = await
+fetch('https://alvisbjones.github.io/jsonfiles/teams.json')
+const json = await res.json()
+console.log(json)
+//console.log('test')
 /*
-		<div class="table">
-			<Agtest client:load/>
-		</div>
+
 */
 
 ---
-
 
 <Layout title="Spring Creek Golf League">
 	<main>
@@ -19,41 +22,28 @@ import Agtest from '../components/Agtest';
         <div class="navigation"> <Nav/> </div>
        
 		<p class="instructions">
-			Please send updates for email & phone to : xxx@yyy.com<br />
+			Please send updates for team to : xxx@yyy.com<br />
 		</p>
 
-		<ul>
-			<li> info about officers</li>
-			<li> info about watters creek</li>
-			<li> handicap calculation</li>
-			<li> league rules</li>
-			<li><a href="/reports/playerrpt">wow</a></li>
-		</ul>
-		<div>
-			<p>mui component</p>
-			<Playermui client:load />
-		</div>
-
-*/
-
-
-	
+        <ol>
+            {json.map(team => (
+                <li>{team.name}</li>
+        
+            ))}
+        </ol>
 		
-
-			
-
-
-
+		
 	</main>
 </Layout>
+
 
 <style>
 	main {
 		margin: auto;
 		padding: 1.5rem;
-		max-width: 80ch;
+		max-width: 60ch;
 	}
-    h1 {
+	h1 {
 		font-size: 3rem;
 		font-weight: 800;
 		margin: 0;
@@ -90,10 +80,8 @@ import Agtest from '../components/Agtest';
 		gap: 1rem;
 		padding: 0;
 	}
-    .navigation {
-        padding: .8em;
-    }
-	.table {
-        width: 600;
-    }
 </style>
+
+
+
+
