@@ -1,15 +1,29 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Nav from '../components/Nav.astro';
-//import json from '../data/player.json';
+import json from '../data/teamplayer.json';
 //console.log(json)
-
+/*
 const res = await
 fetch('https://alvisbjones.github.io/jsonfiles/teams.json')
 const json = await res.json()
 console.log(json)
-//console.log('test')
 /*
+				<table width="100%" >
+
+					{team.players.map(player =>(
+						<tr>
+							<td>{player.lastName}</td>
+							<td>{player.hdcpIndex}</td>
+							<td>{player.email}/td>
+							<td>{player.phone}</td>
+						</tr>
+					)
+					)}	
+				</table>
+
+
+
 
 */
 
@@ -26,9 +40,28 @@ console.log(json)
 		</p>
 
         <ol>
-            {json.map(team => (
+            {json.teams.map(team=> (
                 <li>{team.name}</li>
-        
+				<table>
+					
+					{team.players.map(player => (
+						<tr>
+							<td class ="name">{player.firstName} {player.lastName}</td>
+							<td class="hdcp">({player.hdcpIndex})</td>
+							<td class="email">{player.email}</td>
+							<td class="phone">{player.phone}</td>
+						</tr>
+
+
+
+					))}
+
+					
+				</table>
+
+
+
+
             ))}
         </ol>
 		
@@ -80,7 +113,27 @@ console.log(json)
 		gap: 1rem;
 		padding: 0;
 	}
+	li {
+		padding: 0rem;
+		padding-top: .5rem;
+	}
+	table {
+		font-size: 1rem;
+
+	}
+	tr {
+		padding: 1rem;
+
+	}
+	.email {
+		padding-left: 1rem;
+	}
+	.phone {
+		padding-left: 1rem;
+	}
+
 </style>
+
 
 
 
