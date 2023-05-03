@@ -9,33 +9,33 @@
                 "pid": 8,
                 "firstName": "Dan",
                 "lastName": "Cervantes",
-                "email": " ",
+                "email": "dancervantes@sbcglobal.net",
                 "phone": " ",
-                "hdcpIndex": "8.2"
+                "hdcpIndex": 8
             },
             {
                 "pid": 38,
                 "firstName": "Richard",
                 "lastName": "Blanford",
-                "email": " ",
+                "email": "rblanford@bmailpro.com",
                 "phone": " ",
-                "hdcpIndex": "3.9"
+                "hdcpIndex": 4
             },
             {
                 "pid": 72,
                 "firstName": "Alex",
                 "lastName": "Hill",
-                "email": " ",
+                "email": "alexhill45@verizon.net",
                 "phone": " ",
-                "hdcpIndex": "10.5"
+                "hdcpIndex": 10
             },
             {
                 "pid": 86,
                 "firstName": "Marty",
                 "lastName": "Leister",
-                "email": " ",
+                "email": "mleister60@hotmail.com",
                 "phone": " ",
-                "hdcpIndex": "5.3"
+                "hdcpIndex": 5
             }
         ]
     },
@@ -48,17 +48,17 @@
                 "pid": 4,
                 "firstName": "Brent",
                 "lastName": "Jones",
-                "email": " alvisbjones@gmail.com",
+                "email": "alvisbjones@gmail.com",
                 "phone": "214-649-2059",
-                "hdcpIndex": "3.3"
+                "hdcpIndex": 3
             },
             {
                 "pid": 9,
                 "firstName": "Bill",
                 "lastName": "Harrell",
-                "email": " ",
+                "email": "bhconnect@yahoo.com",
                 "phone": " ",
-                "hdcpIndex": "4.2"
+                "hdcpIndex": 4
             },
             {
                 "pid": 81,
@@ -66,15 +66,15 @@
                 "lastName": "Locke",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "9.7"
+                "hdcpIndex": 10
             },
             {
                 "pid": 89,
                 "firstName": "Steve",
                 "lastName": "Brigante",
-                "email": " ",
-                "phone": " ",
-                "hdcpIndex": "8.1"
+                "email": "steve.brigante@verizon.net",
+                "phone": "469-235-6032",
+                "hdcpIndex": 8
             },
             {
                 "pid": 99,
@@ -82,7 +82,7 @@
                 "lastName": "Weldon",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "4.4"
+                "hdcpIndex": 4
             }
         ]
     },
@@ -97,7 +97,7 @@
                 "lastName": "Bogert",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "8.8"
+                "hdcpIndex": 9
             },
             {
                 "pid": 30,
@@ -105,15 +105,15 @@
                 "lastName": "Vandenberge",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "17.5"
+                "hdcpIndex": 18
             },
             {
                 "pid": 49,
                 "firstName": "Sue",
                 "lastName": "Poppens",
-                "email": " ",
-                "phone": " ",
-                "hdcpIndex": "9.9"
+                "email": "suepoppens@yahoo.com",
+                "phone": "972-896-3406",
+                "hdcpIndex": 10
             },
             {
                 "pid": 71,
@@ -121,7 +121,7 @@
                 "lastName": "Stubing",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "0.2"
+                "hdcpIndex": 0
             },
             {
                 "pid": 80,
@@ -129,7 +129,7 @@
                 "lastName": "Cooley",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "7.1"
+                "hdcpIndex": 7
             }
         ]
     },
@@ -144,7 +144,7 @@
                 "lastName": "Maguire",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "9.3"
+                "hdcpIndex": 9
             },
             {
                 "pid": 40,
@@ -152,7 +152,7 @@
                 "lastName": "Weldele",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "10.2"
+                "hdcpIndex": 10
             },
             {
                 "pid": 43,
@@ -160,7 +160,7 @@
                 "lastName": "Burdette",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "13.0"
+                "hdcpIndex": 13
             },
             {
                 "pid": 87,
@@ -168,7 +168,7 @@
                 "lastName": "Burdette",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "9.7"
+                "hdcpIndex": 10
             }
         ]
     },
@@ -183,7 +183,7 @@
                 "lastName": "Gibbons",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "8.2"
+                "hdcpIndex": 8
             },
             {
                 "pid": 60,
@@ -191,7 +191,7 @@
                 "lastName": "Garcia",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "15.3"
+                "hdcpIndex": 15
             },
             {
                 "pid": 67,
@@ -199,7 +199,7 @@
                 "lastName": "Depaul",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "18.2"
+                "hdcpIndex": 18
             },
             {
                 "pid": 104,
@@ -207,7 +207,7 @@
                 "lastName": "Garcia",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "9.9"
+                "hdcpIndex": 10
             }
         ]
     },
@@ -222,7 +222,7 @@
                 "lastName": "Lewis",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "7.3"
+                "hdcpIndex": 7
             }
         ]
     },
@@ -237,7 +237,7 @@
                 "lastName": "Lahutsky",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "8.7"
+                "hdcpIndex": 9
             },
             {
                 "pid": 98,
@@ -245,7 +245,7 @@
                 "lastName": "Jordan",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "9.7"
+                "hdcpIndex": 10
             },
             {
                 "pid": 102,
@@ -253,7 +253,7 @@
                 "lastName": "Mauriello",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "4.5"
+                "hdcpIndex": 4
             }
         ]
     },
@@ -268,7 +268,7 @@
                 "lastName": "Smith",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "6.7"
+                "hdcpIndex": 7
             },
             {
                 "pid": 41,
@@ -276,7 +276,7 @@
                 "lastName": "Livesey",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "11.9"
+                "hdcpIndex": 12
             },
             {
                 "pid": 74,
@@ -284,7 +284,7 @@
                 "lastName": "Smith",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "0.9"
+                "hdcpIndex": 1
             }
         ]
     },
@@ -297,25 +297,17 @@
                 "pid": 10,
                 "firstName": "Kris",
                 "lastName": "Loia",
-                "email": " loia@gmail.com",
-                "phone": " ",
-                "hdcpIndex": "6.0"
+                "email": "krisgolfer@sbcglobal.net",
+                "phone": "214-535-3904",
+                "hdcpIndex": 6
             },
             {
                 "pid": 21,
                 "firstName": "Robert",
                 "lastName": "McEntire",
-                "email": " ",
-                "phone": " ",
-                "hdcpIndex": "10.3"
-            },
-            {
-                "pid": 62,
-                "firstName": "Stephen",
-                "lastName": "Graham",
-                "email": " ",
-                "phone": " ",
-                "hdcpIndex": "11.5"
+                "email": "robertmcentire@usa.net",
+                "phone": "214-808-4040",
+                "hdcpIndex": 10
             },
             {
                 "pid": 64,
@@ -323,7 +315,7 @@
                 "lastName": "Cardwell",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "6.6"
+                "hdcpIndex": 7
             },
             {
                 "pid": 79,
@@ -331,7 +323,46 @@
                 "lastName": "Foster",
                 "email": " ",
                 "phone": " ",
-                "hdcpIndex": "5.3"
+                "hdcpIndex": 5
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Mulligan's Heroes",
+        "number": 10,
+        "players": [
+            {
+                "pid": 65,
+                "firstName": "Bill",
+                "lastName": "Zakareckis",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 8
+            },
+            {
+                "pid": 66,
+                "firstName": "Chris",
+                "lastName": "Davis",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 12
+            },
+            {
+                "pid": 83,
+                "firstName": "Tim",
+                "lastName": "Taylor",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 15
+            },
+            {
+                "pid": 84,
+                "firstName": "Sherrie",
+                "lastName": "Taylor",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 14
             }
         ]
     }

@@ -1,18 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Nav from '../components/Nav.astro';
-import TeamPlayer from '../components/TeamPlayer'
-import TPtest from '../components/TPtest'
-//import Playermui from '../components/playermui';
-//import Agtest from '../components/Agtest';
-
-/*
-		<div class="table">
-			<Agtest client:load/>
-		</div>
-*/
-
+import Card from '../components/Card.astro';
 ---
+
 
 
 <Layout title="Spring Creek Golf League">
@@ -21,21 +12,31 @@ import TPtest from '../components/TPtest'
 		<h1><span class=" text-gradient">Spring Creek Golf League</span></h1>
         <div class="navigation"> <Nav/> </div>
        
-		<p class="instructions">
-			Please send updates for email & phone to : xxx@yyy.com<br />
-		</p>
-
-		<ul>
-			<li> info about officers</li>
-			<li> info about watters creek</li>
-			<li> handicap calculation</li>
-			<li> league rules</li>
-			<li><a href="/reports/playerrpt">wow</a></li>
+	
+		<ul role="list" class="link-card-grid">
+			<Card
+				href="/handicap"
+				title="Handicap Information"
+				body="Handicaps"
+			/>
+			<Card
+				href="https://www.watterscreekgolf.com"
+				title="Watters Creek"
+				body="Course Website"
+			/>
+			<Card
+				href="/reports/playerrpt"
+				title="Player info"
+				body="list of players"
+			/>
+			<Card
+				href="/spond"
+				title="Golf League Communication"
+				body="Stay in touch with Spond"
+			/>
+	
 		</ul>
 
-
-
-*/
 
 	</main>
 </Layout>
@@ -44,7 +45,7 @@ import TPtest from '../components/TPtest'
 	main {
 		margin: auto;
 		padding: 1.5rem;
-		max-width: 80ch;
+		max-width: 60ch;
 	}
     h1 {
 		font-size: 3rem;
@@ -85,8 +86,5 @@ import TPtest from '../components/TPtest'
 	}
     .navigation {
         padding: .8em;
-    }
-	.table {
-        width: 600;
     }
 </style>
