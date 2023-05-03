@@ -2,30 +2,6 @@
 import Layout from '../layouts/Layout.astro';
 import Nav from '../components/Nav.astro';
 import json from '../data/teamplayer.json';
-//console.log(json)
-/*
-const res = await
-fetch('https://alvisbjones.github.io/jsonfiles/teams.json')
-const json = await res.json()
-console.log(json)
-/*
-				<table width="100%" >
-
-					{team.players.map(player =>(
-						<tr>
-							<td>{player.lastName}</td>
-							<td>{player.hdcpIndex}</td>
-							<td>{player.email}/td>
-							<td>{player.phone}</td>
-						</tr>
-					)
-					)}	
-				</table>
-
-
-
-
-*/
 
 ---
 
@@ -36,32 +12,25 @@ console.log(json)
         <div class="navigation"> <Nav/> </div>
        
 		<p class="instructions">
-			Please send updates for team to : xxx@yyy.com<br />
+			Please send updates to <a href="mailto:3puttfool@gmail.com?Subject=Changes">3puttfool</a>
+	
 		</p>
 
         <ol>
             {json.teams.map(team=> (
                 <li>{team.name}</li>
-				<table>
-					
+
+				<>
 					{team.players.map(player => (
-						<tr>
-							<td class ="name">{player.firstName} {player.lastName}</td>
-							<td class="hdcp">({player.hdcpIndex})</td>
-							<td class="email">{player.email}</td>
-							<td class="phone">{player.phone}</td>
-						</tr>
-
-
+						<div style="display: flex; justify-content: space-between;">
+							<p style="flex-basis: 45%;">{player.firstName} {player.lastName} ({player.hdcpIndex})</p>
+							<p style="flex-basis: 30%;">{player.email}</p>
+							<p style="flex-basis: 20%;">{player.phone}</p>
+						
+						</div>
 
 					))}
-
-					
-				</table>
-
-
-
-
+				</>
             ))}
         </ol>
 		
@@ -74,12 +43,16 @@ console.log(json)
 	main {
 		margin: auto;
 		padding: 1.5rem;
-		max-width: 60ch;
+		min-width: 500px;
+
 	}
 	h1 {
 		font-size: 3rem;
 		font-weight: 800;
 		margin: 0;
+	}
+	p {
+		margin: 5px 0px 0px 0px;
 	}
 	.text-gradient {
 		background-image: var(--accent-gradient);
@@ -114,23 +87,10 @@ console.log(json)
 		padding: 0;
 	}
 	li {
-		padding: 0rem;
-		padding-top: .5rem;
+		margin: 10px 0px 0px 0px;
 	}
-	table {
-		font-size: 1rem;
 
-	}
-	tr {
-		padding: 1rem;
 
-	}
-	.email {
-		padding-left: 1rem;
-	}
-	.phone {
-		padding-left: 1rem;
-	}
 
 </style>
 
