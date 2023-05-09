@@ -365,6 +365,147 @@
                 "hdcpIndex": 14
             }
         ]
+    },
+    {
+        "id": 16,
+        "name": "Handicapped",
+        "number": 11,
+        "players": [
+            {
+                "pid": 1,
+                "firstName": "Jeff",
+                "lastName": "Lance",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 7
+            },
+            {
+                "pid": 29,
+                "firstName": "Ed",
+                "lastName": "Rose",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 8
+            },
+            {
+                "pid": 76,
+                "firstName": "Jordan",
+                "lastName": "Knowles",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 4
+            },
+            {
+                "pid": 95,
+                "firstName": "David",
+                "lastName": "Knowles",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 3
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "TBD",
+        "number": 12,
+        "players": [
+            {
+                "pid": 18,
+                "firstName": "Matt",
+                "lastName": "Harris",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 19
+            },
+            {
+                "pid": 28,
+                "firstName": "Rick",
+                "lastName": "Grimm",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 15
+            },
+            {
+                "pid": 48,
+                "firstName": "David",
+                "lastName": "Montgomery",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 6
+            },
+            {
+                "pid": 51,
+                "firstName": "Les",
+                "lastName": "Dutcher",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 10
+            },
+            {
+                "pid": 88,
+                "firstName": "John",
+                "lastName": "Sopko",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 22
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Gopher Broke",
+        "number": 13,
+        "players": [
+            {
+                "pid": 16,
+                "firstName": "Mark",
+                "lastName": "Yaeger",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 6
+            },
+            {
+                "pid": 35,
+                "firstName": "David",
+                "lastName": "Kelly",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 15
+            },
+            {
+                "pid": 37,
+                "firstName": "Jim",
+                "lastName": "Gravley",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 7
+            },
+            {
+                "pid": 59,
+                "firstName": "Vash",
+                "lastName": "Narula",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 6
+            },
+            {
+                "pid": 78,
+                "firstName": "Mukesh",
+                "lastName": "Mirchandani",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 9
+            },
+            {
+                "pid": 90,
+                "firstName": "Bob",
+                "lastName": "Churchill",
+                "email": " ",
+                "phone": " ",
+                "hdcpIndex": 12
+            }
+        ]
     }
 ]
 }

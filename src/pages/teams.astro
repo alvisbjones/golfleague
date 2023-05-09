@@ -23,10 +23,8 @@ import json from '../data/teamplayer.json';
 				<>
 					{team.players.map(player => (
 						<div style="display: flex; justify-content: space-between;">
-							<p style="flex-basis: 45%;">{player.firstName} {player.lastName} ({player.hdcpIndex})</p>
+							<p style="flex-basis: 30%;">{player.firstName} {player.lastName} ({player.hdcpIndex})</p>
 							<p style="flex-basis: 30%;">{player.email}</p>
-							<p style="flex-basis: 20%;">{player.phone}</p>
-						
 						</div>
 
 					))}
@@ -52,7 +50,7 @@ import json from '../data/teamplayer.json';
 		margin: 0;
 	}
 	p {
-		margin: 5px 0px 0px 0px;
+		margin: 10px 0px 0px 0px;
 	}
 	.text-gradient {
 		background-image: var(--accent-gradient);
