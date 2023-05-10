@@ -1,3 +1,6 @@
+---
+---
+
 # Handicap info
 
 What you should know - In 150 words or less
@@ -12,7 +15,7 @@ Further reduce a Handicap Index after an exceptional score is posted (see except
 
 The following table shows how a Handicap Index is calculated for players with fewer than 20 scores in their scoring record.
 
-<img src="hdcpscores.png" width="500" alt="Scores used">
+<img src="public/hdcpscores.png" width="500" alt="Scores used">
 
  
 Additional Resources:
