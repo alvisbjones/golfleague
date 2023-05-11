@@ -14,6 +14,8 @@ If you download the app and log in, the email notifications will stop. When you 
  
 If you wish to unsubscribe from the email notifications you can do so at the bottom of the invitation. This is also where you re-subscribe.
 
+Having trouble send email to 3puttfool@gmail.com 
+
 # How to get Spond?
 On which platforms can I find the Spond App?
 
@@ -25,5 +27,5 @@ Android ([Google Play](https://play.google.com/store/apps/details?id=com.spond.s
 Web (https://spond.com)
 
 # Download the app 
-Request the group code from 3puttfool@gmail.com
+Group Code = KPZIQ
 

@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Nav from '../components/Nav.astro';
 import json from '../data/teamplayer.json';
-
+const datetime = new Date().toLocaleString();
 ---
 
 <Layout title="Spring Creek Golf League">
@@ -15,6 +15,7 @@ import json from '../data/teamplayer.json';
 			Please send updates to <a href="mailto:3puttfool@gmail.com?Subject=Changes">3puttfool</a>
 	
 		</p>
+		<p> Updated: {datetime}</p>
 
         <ol>
             {json.teams.map(team=> (
@@ -24,7 +25,7 @@ import json from '../data/teamplayer.json';
 					{team.players.map(player => (
 						<div style="display: flex; justify-content: space-between;">
 							<p style="flex-basis: 30%;">{player.firstName} {player.lastName} ({player.hdcpIndex})</p>
-							<p style="flex-basis: 30%;">{player.email}</p>
+							
 						</div>
 
 					))}
