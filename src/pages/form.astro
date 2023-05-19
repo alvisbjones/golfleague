@@ -37,6 +37,11 @@ A-Player: <select name="player1A" id="player1A">
   </select>
   Score: <input type="number" id="p2Bscore" name="p2Bscore">
   <br><br>
+  <label for="file">Choose file to upload</label>
+  <input type="file" id="file" name="file"/>
+  <label for="imageFile">Take a picture to upload</label>
+  <input type="file" id="imageFile" capture="user" accept="image/*" />
+  
   <input type="submit" value="submit"> 
  
 
@@ -51,10 +56,10 @@ A-Player: <select name="player1A" id="player1A">
 <script>
 //  
 
-
+/*
 import { renderAstroTemplateResult } from "astro/dist/runtime/server/render";
 import Teams from "./teams.astro";
-
+*/
 
 const teamPlayer = 
 {
