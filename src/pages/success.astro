@@ -1,0 +1,40 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Nav from '../components/Nav.astro';
+---
+
+
+
+<Layout title="Spring Creek Golf League">
+	<main>
+		
+		<h1><span class=" text-gradient">Spring Creek Golf League</span></h1>
+        <div class="navigation"> <Nav/> </div>
+
+        Thanks for submitting your match information.
+       
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1.5rem;
+		max-width: 60ch;
+	}
+    h1 {
+		font-size: 3rem;
+		font-weight: 800;
+		margin: 0;
+	}
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+    .navigation {
+        padding: .8em;
+    }
+</style>
