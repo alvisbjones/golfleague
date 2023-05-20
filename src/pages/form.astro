@@ -5,47 +5,41 @@ import Layout from '../layouts/Layout.astro';
 
 <h1>Golf League Tally Sheet</h1>
 
-<form name="form1" id="form1" >
+<form 
+name="tallsheet" id="form1" method="post" data-netlify="true" onSubmit="submit"
+>
 Team: <select name="team1" id="team1" >
     <option value="" selected="selected">Select team</option>
   </select>
-  <select name="team2" id="team2" >
+Points: <input type="number" id="team1Pts" name="team1Pts" min="0" max="54"><br><br>
+A: <select name="player1A" id="player1A">
+  <option value="" selected="selected">Please select player</option>
+</select>
+Score: <input type="number" id="p1Ascore" name="p1Ascore" min="30" max="72"><br><br>
+B: <select name="player1B" id="player1B">
+  <option value="" selected="selected">Please select player</option>
+</select>
+Score: <input type="number" id="p1Bscore" name="p1Bscore" min="30" max="72"><br><br>
+Team: <select name="team2" id="team2" >
     <option value="" selected="selected">Select team</option>
   </select>
-  <br><br>
-Points: <input type="number" id="team1Pts" name="team1Pts">
-<input type="number" id="team2Pts" name="team2Pts">
-
+Points: <input type="number" id="team2Pts" name="team2Pts" min="0" max="54">
 <br><br>
-A-Player: <select name="player1A" id="player1A">
+A: <select name="player2A" id="player2A">
     <option value="" selected="selected">Please select player</option>
   </select>
-  Score: <input type="number" id="p1Ascore" name="p1Ascore">
-
-  <select name="player2A" id="player2A">
-    <option value="" selected="selected">Please select player</option>
-  </select>
-  Score: <input type="number" id="p2Ascore" name="p2Ascore">
+Score: <input type="number" id="p2Ascore" name="p2Ascore" min="30" max="72">
   <br><br>
-  B-Player: <select name="player1B" id="player1B">
+B: <select name="player2B" id="player2B">
     <option value="" selected="selected">Please select player</option>
   </select>
-  Score: <input type="number" id="p1Bscore" name="p1Bscore">
-
-  <select name="player2B" id="player2B">
-    <option value="" selected="selected">Please select player</option>
-  </select>
-  Score: <input type="number" id="p2Bscore" name="p2Bscore">
+  Score: <input type="number" id="p2Bscore" name="p2Bscore" min="30" max="72">
   <br><br>
-  <label for="file">Choose file to upload</label>
-  <input type="file" id="file" name="file"/>
-  <label for="imageFile">Take a picture to upload</label>
-  <input type="file" id="imageFile" capture="user" accept="image/*" />
-  
+  <label for="file">Take a photo to upload</label><br><br>
+  <input type="file" id="upload" name="upload" accept="image/*" /> <br><br><br>
+
   <input type="submit" value="submit"> 
  
-
-  
 </form>
 
 
