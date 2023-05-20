@@ -3,51 +3,112 @@ import Layout from '../layouts/Layout.astro';
 ---
 <Layout title="Spring Creek Golf League">
 
-<h1>Golf League Tally Sheet</h1>
+<h1>Tally Sheet</h1><br>
 
 <form 
 name="tallysheet" id="form1" method="post" data-netlify="true" onSubmit="submit"
 data-netlify-honeypot="bot-field"
 >
 <input type="hidden" name="bot-field">
+Match Scheduled Date:<br>
 <input type="date" name="date"> <br><br>
-Team: <select name="team1" id="team1" >
-    <option value="" selected="selected">Select team</option>
-  </select><br>
-Points: <input type="number" id="t1pts" name="t1pts" min="0" max="54"><br><br>
+<div class="team">
+  <div class="teamsel">
+    Team: <select name="team1" id="team1" >
+      <option value="" selected="selected">Select team</option>
+    </select><br>
+  </div>
+<div class="points">
+  Points: <input type="number" name="t1pts" min="0" max="54"><br><br>
+</div>
+
 A: <select name="p1A" id="player1A">
   <option value="" selected="selected">Please select player</option>
 </select><br>
-Score: <input type="number" id="p1Ascore" name="p1Ascore" min="30" max="72"><br><br>
+<div class="scores">
+  Score: <input type="number" id="p1Ascore" name="p1Ascore" min="30" max="72"><br><br>
+</div>
+
 B: <select name="p1B" id="player1B">
   <option value="" selected="selected">Please select player</option>
 </select><br>
-Score: <input type="number" id="p1Bscore" name="p1Bscore" min="30" max="72"><br><br>
-Team: <select name="team2" id="team2" >
-    <option value="" selected="selected">Select team</option>
-  </select><br>
-Points: <input type="number" id="t2pts" name="t2pts" min="0" max="54">
-<br><br>
+<div class="scores">
+  Score: <input type="number" id="p1Bscore" name="p1Bscore" min="30" max="72"><br><br>
+
+</div>
+
+</div><br>
+<div class="team">
+  <div class="teamsel">
+    Team: <select name="team2" id="team2" >
+      <option value="" selected="selected">Select team</option>
+    </select><br>
+  </div>
+
+<div class="points">
+  Points: <input type="number" id="t2pts" name="t2pts" min="0" max="54"><br><br>
+</div>
+
 A: <select name="p2A" id="player2A">
     <option value="" selected="selected">Please select player</option>
   </select><br>
-Score: <input type="number" id="p2Ascore" name="p2Ascore" min="30" max="72">
-  <br><br>
+  <div class="scores">
+    Score: <input type="number" id="p2Ascore" name="p2Ascore" min="30" max="72"> <br><br>
+  </div>
+
 B: <select name="p2B" id="player2B">
     <option value="" selected="selected">Please select player</option>
   </select><br>
-  Score: <input type="number" id="p2Bscore" name="p2Bscore" min="30" max="72">
-  <br><br>
+  <div class="scores">
+    Score: <input type="number" id="p2Bscore" name="p2Bscore" min="30" max="72"><br><br>
+  </div>
+</div>
+<br>
+<div id="upload">
   <label for="file">Take a photo to upload</label><br><br>
-  <input type="file" id="upload" name="upload" accept="image/*" /> <br><br><br>
+  <input type="file" name="upload" accept="image/*" /> <br><br>
+</div>
 
-  <input type="submit" value="submit"> 
+  <input type="submit" value="submit" id="submit"> 
+
+  
  
 </form>
 
-
-
 </Layout>
+<style>
+	main {
+		margin: auto;
+		padding: 1.5rem;
+		max-width: 60ch;
+	}
+	h1 {
+		font-size: 3rem;
+		font-weight: 800;
+		margin: 0;
+	}
+  .team {
+    width: 300px;
+    border: solid;
+  	
+	}
+  .points, .scores {
+    padding-top: 10px;
+	}
+  .teamsel {
+    padding-top: 10px;
+	}
+  #upload {
+    padding-top: 2em;
+    width: 200px;
+    border: solid;
+	}
+  #submit {
+    margin-top: 20px;
+    width: 20em;
+    height: 5em;
+  }
+</style>
 
 
 <script>
