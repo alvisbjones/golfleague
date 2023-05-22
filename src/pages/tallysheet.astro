@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Nav from '../components/Nav.astro';
+import Card from '../components/Card.astro';
 ---
 
 
@@ -16,13 +17,17 @@ import Nav from '../components/Nav.astro';
 			Post to team 0 in the spond app.
 
 			if link above does not work on your phone, send via email to:
-			
 			3puttfool@gmail.com
-
-
-
 		</p>
+		<ul role="list" class="link-card-grid">
+			<Card
+				href="/form"
+				title="Tally Sheet Test input"
+				body="Please try this link to submit scores"
+			/>
+		</ul>
 
+		
 		<p>Fill out your score card and tally sheet as normal, 
 			and then send a photo to either of the above. <br /> <br /> 
 			
