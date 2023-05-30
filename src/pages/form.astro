@@ -114,8 +114,10 @@ B: <select name="p2B" id="player2B">
 
 async function getTeamData(url) {
   const response = await fetch(url);
-  return response.json();
+  const teams = await response.json();
+  return teams;
 }
+
 
 const teamPlayer = await getTeamData('https://alvisbjones.github.io/jsonfiles/teamplayer.json');
 //console.log('teamPlayer')
