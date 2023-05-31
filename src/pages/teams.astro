@@ -1,9 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Nav from '../components/Nav.astro';
-import json from '../data/teamplayer.json';
-//const datetime = new Date().toLocaleString('en-US',{ timeZone: 'American/Chicago'} );
-const datetime = new Date().toLocaleString("en-US", {timeZone: "America/Chicago"})
+//import json from '../data/teamplayer.json';
+const datetime = new Date().toLocaleString("en-US", {timeZone: "America/Chicago"});
+const response = await fetch('https://alvisbjones.github.io/jsonfiles/teamplayer.json');
+const json = await response.json();
 ---
 
 <Layout title="Spring Creek Golf League">
