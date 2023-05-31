@@ -4,7 +4,9 @@ import { AgGridReact } from 'ag-grid-react';
 
 import 'ag-grid-community/styles/ag-grid.css';
 import 'ag-grid-community/styles/ag-theme-alpine.css';
-import pList from "../data/player.json"
+//import pList from "../data/player.json"
+const response = await fetch('https://alvisbjones.github.io/jsonfiles/player.json');
+const pList = await response.json();
 
 const GetPlayerList = () =>{
   return pList
