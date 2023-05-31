@@ -115,15 +115,15 @@ B: <select name="p2B" id="player2B">
 async function getTeamData(url) {
   const response = await fetch(url);
   const teams = await response.json();
+  console.log('await finished')
+  loadFormData(teams)
   return teams;
 }
 
 
-const teamPlayer = await getTeamData('https://alvisbjones.github.io/jsonfiles/teamplayer.json');
-//console.log('teamPlayer')
-//console.log(teamPlayer)
-
-window.onload = function() {
+//window.onload = function() {
+loadFormData = function(teams) {
+  const teamPlayer = teams
   const team1Sel = document.getElementById("team1");
   const team2Sel = document.getElementById("team2");
   const playerSel1A = document.getElementById("player1A");
@@ -131,27 +131,20 @@ window.onload = function() {
   const playerSel1B = document.getElementById("player1B");
   const playerSel2B = document.getElementById("player2B");
   
-  //console.log(teamPlayer.teams)
+  console.log("before select load")
  
   for (const t of teamPlayer.teams) {
+    console.log(t)
     team1Sel.options[team1Sel.options.length] = new Option(t.name, t.number-1);
     team2Sel.options[team2Sel.options.length] = new Option(t.name, t.number-1);
   }
-
-  //console.log(team1Sel.length)
 
   if(team1Sel.length <= 0) {
     team1Sel.refresh()
     location.reload()
   } 
 
-
-
-
   team1Sel.onchange = function() {
-    //alert(this.name)
-    //alert(this.value)
-    //alert(teamPlayer.teams[this.value].players)
     if (team1Sel.selectedIndex == 0) {
       playerSel1A.length = 1;
       playerSel1B.length = 1;
@@ -169,7 +162,6 @@ window.onload = function() {
     }
   }
 
-  
   team2Sel.onchange = function() {
     if (team2Sel.selectedIndex == 0) {
       playerSel2A.length = 1;
@@ -188,6 +180,8 @@ window.onload = function() {
   }
 
 }
+
+const teamPlayer = getTeamData('https://alvisbjones.github.io/jsonfiles/teamplayer.json');
 </script>
 
 
