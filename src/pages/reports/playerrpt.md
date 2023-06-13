@@ -39,6 +39,7 @@
 | 4   | Brent     | Jones       | M      | 3.7       | 0        |
 | 57  | Scott     | Jones       | M      | 14.3      | 0        |
 | 98  | Russell   | Jordan      | M      | 9.1       | 0        |
+| 109 | Thomas    | Jordan      | M      | 13.4      | 0        |
 | 35  | David     | Kelly       | M      | 15.2      | 0        |
 | 36  | Seth      | Kelly       | M      | 18.9      | 0        |
 | 61  | Jeff      | Kenny       | M      | 6.2       | 0        |
@@ -108,3 +109,5 @@
 | 50  | Gary      | Young       | M      | 1.8       | 0        |
 | 93  | Mark      | Zahorik     | M      | 10.3      | 0        |
 | 65  | Bill      | Zakareckis  | M      | 8.3       | 0        |
+
+
