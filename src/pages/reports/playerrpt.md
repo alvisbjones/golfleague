@@ -1,6 +1,7 @@
 | id  | firstName |  lastName   | gender | hdcpIndex | archived |
 |-----|-----------|-------------|--------|-----------|----------|
 | 32  | Dennis    | Ardizzoni   | M      | 7.2       | 0        |
+| 108 | Brad      | Balthrop    | M      | 14.4      | 0        |
 | 38  | Richard   | Blanford    | M      | 3.9       | 0        |
 | 24  | Tim       | Bogert      | M      | 8.6       | 0        |
 | 89  | Steve     | Brigante    | M      | 8.1       | 0        |
