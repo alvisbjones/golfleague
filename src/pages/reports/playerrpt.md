@@ -78,7 +78,7 @@
 | 82  | Chuck     | Roth        | M      | 10.8      | 0        |
 | 85  | Mike      | Saltmachia  | M      | 3.1       | 0        |
 | 39  | Thomas    | Schattner   | M      | 4.6       | 0        |
-| 110 | Jeff      | Seekatz     | M      | 7.2       | 0        |
+| 110 | Jeff      | Seekatz     | M      | 2.7       | 0        |
 | 34  | Justin    | Seymour     | M      | 9.4       | 0        |
 | 11  | Jeff      | Sherer      | M      | 7.3       | 0        |
 | 3   | Tim       | Smith       | M      | 6.9       | 0        |
