@@ -1,19 +1,19 @@
 | id  | firstName |  lastName   | gender | hdcpIndex | archived |
 |-----|-----------|-------------|--------|-----------|----------|
 | 32  | Dennis    | Ardizzoni   | M      | 7.2       | 0        |
-| 108 | Brad      | Balthrop    | M      | 11.7      | 0        |
+| 108 | Brad      | Balthrop    | M      | 10.8      | 0        |
 | 38  | Richard   | Blanford    | M      | 3.9       | 0        |
 | 24  | Tim       | Bogert      | M      | 7.9       | 0        |
 | 89  | Steve     | Brigante    | M      | 8.1       | 0        |
-| 43  | Ken       | Burdette    | M      | 13.0      | 0        |
+| 43  | Ken       | Burdette    | M      | 12.9      | 0        |
 | 87  | Ron       | Burdette    | M      | 9.7       | 0        |
 | 42  | Tom       | Buttner     | M      | 17.1      | 0        |
 | 73  | Alfonso   | Cadena      | M      | 17.2      | 0        |
-| 64  | Steve     | Cardwell    | M      | 6.1       | 0        |
+| 64  | Steve     | Cardwell    | M      | 6.3       | 0        |
 | 8   | Dan       | Cervantes   | M      | 9.2       | 0        |
-| 90  | Bob       | Churchill   | M      | 10.8      | 0        |
+| 90  | Bob       | Churchill   | M      | 11.0      | 0        |
 | 56  | Ken       | Conway      | M      | 9.1       | 0        |
-| 80  | John      | Cooley      | M      | 7.5       | 0        |
+| 80  | John      | Cooley      | M      | 7.7       | 0        |
 | 77  | Casey     | Corcoran    | M      | 5.9       | 0        |
 | 22  | Dave      | Daniels     | M      | 6.2       | 1        |
 | 52  | Bill      | Davis       | M      | 13.0      | 0        |
@@ -21,9 +21,9 @@
 | 67  | Brian     | Depaul      | M      | 18.2      | 0        |
 | 63  | Randy     | Depwe       | M      | 15.2      | 0        |
 | 51  | Les       | Dutcher     | M      | 9.4       | 0        |
-| 79  | Rex       | Foster      | M      | 4.9       | 0        |
+| 79  | Rex       | Foster      | M      | 5.3       | 0        |
 | 60  | Joan      | Garcia      | F      | 16.6      | 0        |
-| 104 | Rick      | Garcia      | M      | 11.7      | 0        |
+| 104 | Rick      | Garcia      | M      | 11.9      | 0        |
 | 5   | John      | Gertas      | M      | 15.1      | 0        |
 | 27  | Bob       | Gibbons     | M      | 9.5       | 0        |
 | 62  | Stephen   | Graham      | M      | 11.5      | 0        |
@@ -56,7 +56,7 @@
 | 10  | Kris      | Loia        | M      | 5.5       | 0        |
 | 2   | Tim       | Lowrey      | M      | 15.2      | 0        |
 | 58  | Ed        | MacHendrie  | M      | 5.2       | 0        |
-| 33  | Tom       | Maguire     | M      | 9.1       | 0        |
+| 33  | Tom       | Maguire     | M      | 8.9       | 0        |
 | 102 | David     | Mauriello   | M      | 4.6       | 0        |
 | 21  | Robert    | McEntire    | M      | 10.5      | 0        |
 | 100 | Terry     | McLachlan   | M      | 3.8       | 0        |
@@ -86,18 +86,18 @@
 | 88  | John      | Sopko       | M      | 22.6      | 0        |
 | 69  | Bob       | Spain       | M      | 4.5       | 0        |
 | 53  | Shane     | Stelmach    | M      | 11.9      | 0        |
-| 71  | Richard   | Stubing     | M      | 0.2       | 0        |
+| 71  | Richard   | Stubing     | M      | 0.4       | 0        |
 | 17  | Mike      | Sweeney     | M      | 6.1       | 0        |
 | 14  | Jp        | Taylor      | M      | 14.0      | 0        |
 | 83  | Tim       | Taylor      | M      | 14.2      | 0        |
-| 84  | Sherrie   | Taylor      | F      | 14.9      | 0        |
+| 84  | Sherrie   | Taylor      | F      | 15.0      | 0        |
 | 25  | Mike      | Thomas      | M      | 5.9       | 0        |
 | 13  | Doug      | Tinker      | M      | 4.6       | 0        |
 | 75  | Greg      | Urquhart    | M      | 4.4       | 0        |
 | 55  | Rob       | Van Zeeland | M      | 5.8       | 0        |
 | 30  | Tom       | Vandenberge | M      | 17.5      | 0        |
 | 40  | Mark      | Weldele     | M      | 11.5      | 0        |
-| 99  | Brad      | Weldon      | M      | 4.6       | 0        |
+| 99  | Brad      | Weldon      | M      | 5.1       | 0        |
 | 107 | Steve     | Wendler     | M      | 0         | 0        |
 | 94  | John      | West        | M      | 5.2       | 0        |
 | 97  | Mike      | Williamson  | M      | 2.3       | 0        |
