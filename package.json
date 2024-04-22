@@ -10,7 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^2.1.1",
+    "@astrojs/react": "^3.3.0",
     "@emotion/react": "^11.10.8",
     "@emotion/styled": "^11.10.8",
     "@mui/material": "^5.12.2",
@@ -19,7 +19,7 @@
     "@types/react-dom": "^18.2.1",
     "ag-grid-community": "^29.3.3",
     "ag-grid-react": "^29.3.3",
-    "astro": "^2.3.1",
+    "astro": "^4.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
