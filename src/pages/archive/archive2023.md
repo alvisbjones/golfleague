@@ -1,17 +1,23 @@
 ---
 ---
 # 2023 archive info:
-scores file: <br>
-https://alvisbjones.github.io/golfleague2022/pdf/scores.txt <br>
+
+teams: <br>
+https://alvisbjones.github.io/golfpdf2023/pdf/teams.pdf <br>
+
+player scores file: <br>
+https://alvisbjones.github.io/golfpdf2023/pdf/playerdetail.txt <br>
 
 Standings: <br>
-https://alvisbjones.github.io/golfleague2022/pdf/2022standings.pdf <br>
+https://alvisbjones.github.io/golfpdf2023/pdf/2023Standings.pdf<br>
 
 Schedule: <br>
-https://alvisbjones.github.io/golfleague2022/pdf/LeagueSchedule2022.pdf <br>
+https://alvisbjones.github.io/golfpdf2023/pdf/2023Schedule.pdf
+ <br>
 
 Playoffs: <br>
-https://alvisbjones.github.io/golfleague2022/pdf/2022playoff.pdf
+https://alvisbjones.github.io/golfpdf2023/pdf/2023playoffs.pdf
+<br>
 
 
 
