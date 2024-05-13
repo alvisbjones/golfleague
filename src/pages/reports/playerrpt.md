@@ -81,6 +81,7 @@
 | 110 | Jeff      | Seekatz     | M      | 2.7       | 0        |
 | 34  | Justin    | Seymour     | M      | 9.4       | 0        |
 | 11  | Jeff      | Sherer      | M      | 7.3       | 0        |
+| 111 | Jesse     | Simonson    | M      | 5.5       | 0        |
 | 3   | Tim       | Smith       | M      | 6.2       | 0        |
 | 74  | Josh      | Smith       | M      | 0.3       | 0        |
 | 88  | John      | Sopko       | M      | 23.0      | 0        |
