@@ -1,6 +1,6 @@
 import { c as createAstro, d as createComponent, r as renderTemplate, h as renderComponent, m as maybeRenderHead } from '../astro_D8MhdSIb.mjs';
 import 'kleur/colors';
-import { a as $$Card, $ as $$Layout } from './about_BQgL6dst.mjs';
+import { a as $$Card, $ as $$Layout } from './about_BlJK3S0L.mjs';
 /* empty css                          */
 
 const $$Astro = createAstro();
